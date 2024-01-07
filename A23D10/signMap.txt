@@ -1,0 +1,6 @@
+﻿| north and south
+- east and west
+L north and east
+J north and west
+7 south and west
+F south and east

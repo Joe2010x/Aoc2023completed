@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.Z3/4.12.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Z3.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Z3.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/Microsoft.Z3.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libz3.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/libz3.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tools.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Z3/4.12.2": {
+      "sha512": "dOV/D1K+OH2Ris7HcXHM2OIyHaFc6t3twNg9d8xqRKs3JZBvWgTp+OmzVfNGPn+Yz/wQDAHeWgecJly5aHGYAw==",
+      "type": "package",
+      "path": "microsoft.z3/4.12.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.Z3.targets",
+        "content/icon.jpg",
+        "lib/netstandard2.0/Microsoft.Z3.dll",
+        "lib/netstandard2.0/Microsoft.Z3.xml",
+        "microsoft.z3.4.12.2.nupkg.sha512",
+        "microsoft.z3.nuspec",
+        "runtimes/osx-x64/native/libz3.dylib",
+        "runtimes/win-x64/native/libz3.dll"
+      ]
+    },
+    "Tools/1.0.0": {
+      "type": "project",
+      "path": "../Tools/Tools.csproj",
+      "msbuildProject": "../Tools/Tools.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.Z3 >= 4.12.2",
+      "Tools >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Joe\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Joe\\Documents\\Aoc2023\\Aoc2023\\A23D24\\A23D24.csproj",
+      "projectName": "A23D24",
+      "projectPath": "C:\\Users\\Joe\\Documents\\Aoc2023\\Aoc2023\\A23D24\\A23D24.csproj",
+      "packagesPath": "C:\\Users\\Joe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Joe\\Documents\\Aoc2023\\Aoc2023\\A23D24\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Joe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Joe\\Documents\\Aoc2023\\Aoc2023\\Tools\\Tools.csproj": {
+              "projectPath": "C:\\Users\\Joe\\Documents\\Aoc2023\\Aoc2023\\Tools\\Tools.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.Z3": {
+            "target": "Package",
+            "version": "[4.12.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

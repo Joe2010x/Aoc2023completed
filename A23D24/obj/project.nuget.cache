@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oRIIsos9Cu/ILdmGHiSujkzJhMk+HB1CBuX19FN9IPqoqbp682+0Ugkz92cQVHpIaeUOCfFXw4ELdgtAaQjaYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joe\\Documents\\Aoc2023\\Aoc2023\\A23D24\\A23D24.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joe\\.nuget\\packages\\microsoft.z3\\4.12.2\\microsoft.z3.4.12.2.nupkg.sha512"
+  ],
+  "logs": []
+}
